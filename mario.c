@@ -10,10 +10,10 @@ int main(void)
     if (height>=1||height<=8){
         for(int i =1; i<=height; i++){
         int k =height-i;
-           do{
+           while(k>0){
            printf(" ");
            k--;
-           }while (k>=0);
+           }
            int j =1;
             do{
            printf("#");
