@@ -24,6 +24,7 @@ int main(int argc, string argv[])
        printf("Success\n");
        int key = atoi(argv[1]);
        string text = get_string("plaintext: ");
+       printf("ciphertext: ");
        for (int i = 0; i < strlen(text); i++)
        {
           if(isalpha(text[i]) != 0 && isupper(text[i]) == 0 )
