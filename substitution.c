@@ -28,7 +28,7 @@ int main(int argc, string argv[])
            }
             for(int j = i+1; j< strlen(argv[1]);j++)
             {
-                if( argv[j] == argv[i])
+                if( argv[1][j] == argv[1][i])
                 {
                     printf("Key must not contained repeated characters");
                     return 1;
