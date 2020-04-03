@@ -26,6 +26,14 @@ int main(int argc, string argv[])
                printf("Usage: ./substitution key\n");
                return 1;
            }
+            for(int j = i+1; j< strlen(argv[1]);j++)
+            {
+                if( argv[j] == argv[i])
+                {
+                    printf("Key must not contained repeated characters");
+                    return 1;
+                }
+            }
            }
     }
     
