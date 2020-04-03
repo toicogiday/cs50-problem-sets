@@ -28,9 +28,8 @@ int main(int argc, string argv[])
            }
            }
     }
-    }
+    
 
-    printf("Success");
     string key = argv[1];
     string text = get_string("plaintext: ");
     printf("ciphertext: ");
@@ -63,14 +62,14 @@ int main(int argc, string argv[])
                {
                    printf("%c", newAlpha);
                }
-               
+
            }
           else if(isalpha(text[i]) == 0) //not a alpha
            {
                printf("%c", text[i]);
-           }  
+           }
 
     }
     printf("\n");
-
+}
 }
